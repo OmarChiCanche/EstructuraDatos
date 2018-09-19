@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1520730042 source:c:\users\usuario.athenea\desktop\itsva\2do semestre\programacion orientada a objetos\unidad 2\ejericicios_programas  poo\ejercicio_1\main.cpp
+	<iostream>
+	<string>
+	"CuentaBancaria.h"
+	<cmath>
+
+1520730042 source:c:\users\usuario.athenea\desktop\itsva\2do semestre\programacion orientada a objetos\unidad 2\ejericicios_programas  poo\ejercicio_1\src\cuentabancaria.cpp
+	<iostream>
+	"CuentaBancaria.h"
+	<string>
+	<cmath>
+
+1520727925 c:\users\usuario.athenea\desktop\itsva\2do semestre\programacion orientada a objetos\unidad 2\ejericicios_programas  poo\ejercicio_1\include\cuentabancaria.h
+	<string>
+	<cmath>
+
