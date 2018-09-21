@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1537516804 source:c:\estructuradatos\tema1\hangman2\main.cpp
+	"Hangman.h"
+	<string>
+	<cstdlib>
+	<vector>
+	<windows.h>
+	<iostream>
+	<time.h>
+	<queue>
+
+1537515279 source:c:\estructuradatos\tema1\hangman2\src\hangman.cpp
+	"Hangman.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<vector>
+	<time.h>
+	<queue>
+
+1537514556 c:\estructuradatos\tema1\hangman2\include\hangman.h
+	<cstdlib>
+	<vector>
+	<time.h>
+	<iostream>
+	<string>
+	<queue>
+

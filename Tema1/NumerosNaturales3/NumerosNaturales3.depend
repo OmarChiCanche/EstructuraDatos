@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1537504645 source:c:\estructuradatos\tema1\numerosnaturales3\src\natural.cpp
+	<iostream>
+	"natural.h"
+
+1537504563 c:\estructuradatos\tema1\numerosnaturales3\include\natural.h
+
+1537504975 source:c:\estructuradatos\tema1\numerosnaturales3\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Natural.h"
+
