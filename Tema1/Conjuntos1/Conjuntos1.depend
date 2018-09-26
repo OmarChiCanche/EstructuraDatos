@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1537973669 source:c:\estructuradatos\tema1\conjuntos1\src\conjuntos.cpp
+	"Conjuntos.h"
+	<iostream>
+	<process.h>
+	<stdlib.h>
+
+1537973651 c:\estructuradatos\tema1\conjuntos1\include\conjuntos.h
+
+1537973629 source:c:\estructuradatos\tema1\conjuntos1\main.cpp
+	<iostream>
+	"Conjuntos.h"
+	<stdlib.h>
+	<string>
+
