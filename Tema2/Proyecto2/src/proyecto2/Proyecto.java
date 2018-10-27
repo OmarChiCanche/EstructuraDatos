@@ -12,6 +12,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.Scanner;
 import javax.swing.JFileChooser;
@@ -19,7 +20,23 @@ import javax.swing.JFileChooser;
 public class Proyecto {
 
     public static void main(String[] args) {
+        String texto1="";
+        try
+    {
+        FileReader lector=new FileReader("texto.txt");
+        BufferedReader contenido=new BufferedReader(lector);
+        System.out.println("Lista\n");
+        while((texto1=contenido.readLine())!=null)
+        {
+        System.out.println(texto1);
+        }
+        }
+    catch(IOException e)
+        {
+        System.out.println("Error al leer");
+        }
 
+        ///////////////////////////////
         Scanner entrada = null;
         String linea;
         int numeroDeLinea = 1;
@@ -30,11 +47,7 @@ public class Proyecto {
         JFileChooser j = new JFileChooser();
         j.showOpenDialog(j);
         
-        //Introducimos el texto a buscar
- /*while ((texto=entrada.nextLine())!=null)
- {  
- System.out.println(texto);
-  }*/
+      
         System.out.print("Introduce texto a buscar: ");
         texto = sc.nextLine();
         
@@ -47,7 +60,7 @@ public class Proyecto {
             File f = new File(ruta);
             //creamos un Scanner que leera el archivo
             entrada = new Scanner(f);
-            
+                    
             //mostramos el nombre del fichero
             //System.out.println("Archivo: " + f.getName());
             //mostramos el texto a buscar
